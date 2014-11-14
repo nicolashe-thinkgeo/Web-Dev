@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<table>
+	<tr ng-repeat="x in students">
+		<td>{{x.name}}</td>
+		<td>{{x.age}}</td>		
+	</tr>
+</table>
+Name:<input type="text" ng-model="students[0].name" /><br/>
+Age: <input type="text" ng-model="students[0].age"/><br/>
+<input type="button" value="Submit" ng-click="submit()" />
+</div>
+<script src= "./angular.min-1.2.x.js"></script>
+<script>
+	var app=angular.module("myApp",[]);
+	app.controller("myCtrl",function($scope,$http){
+		$scope.newName="";
+		$scope.newAge="";
+		$scope.submit=function(){
+			$scope.students.push({name:$scope.newName,age:$scope.newAge});
+		};
+	
+		$http.get('http://localhost:8888/').success(function(res){
+			$scope.students=res;
+		}).error(function(ex){
+			alert(ex);
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="HideAnkSeek">
+<head>
+    <meta charset="UTF-8">
+    <title>???</title>
+    <style type="text/css">
+        .ng-cloak {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<span class="ng-cloak" wildcat>?????~~????~~</span>
+<script src= "./angular.min-1.2.x.js"></script>
+<script type="text/javascript">
+    angular.module("HideAnkSeek", []).directive("wildcat", function ($document) {
+        var maxLeft = 400,maxTop = 300;
+        var msg = ["??~~", "???~~~", "???~~", "??~~", "???~!","????????!","???~~????????"];
+        return function (scope, element, attr) {
+            element.css({
+                "position":"absolute",
+                "border":"1px solid green"
+            });
+            element.bind("mouseenter", function (event) {
+                element.css({
+                    "left":parseInt(Math.random() * 10000 % maxLeft) + "px",
+                    "top":parseInt(Math.random() * 10000 % maxTop) + "px"
+                }).text(msg[parseInt(Math.random() * 10000 % msg.length)]);
+            }).bind("click",function (event) {
+                        element.text("?My Lady Gaga???????????");
+                        element.unbind("mouseenter");
+                    });
+        };
+    });
+</script>
+</body>
+</html>
