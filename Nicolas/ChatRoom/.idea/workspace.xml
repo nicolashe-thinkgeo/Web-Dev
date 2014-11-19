@@ -1,7 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa6f9c1-1447-4a5b-b627-de9ccbe2d1c8" name="Default" comment="" />
+    <list default="true" id="9fa6f9c1-1447-4a5b-b627-de9ccbe2d1c8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/chat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chat_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/chat_ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\.bin\_mini" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\.bin\_mini.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\.bin\mini" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\.bin\mini.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\bin\_mini" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\bin\mini" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\lib\formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\lib\mini.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\lib\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\argvee\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\argvee\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\argvee\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\argvee\hydro.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\argvee\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\argvee\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\eyehurt\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\eyehurt\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\eyehurt\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\eyehurt\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\eyehurt\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\lib\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\examples\g.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\examples\usr-local.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\glob.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\inherits\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\inherits\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\inherits\inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\inherits\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\minimatch.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\CONTRIBUTORS" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\lib\lru-cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\foreach.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\memory-leak.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\sigmund\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\sigmund\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\sigmund\bench.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\sigmund\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\sigmund\sigmund.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\node_modules\sigmund\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\test\brace-expand.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\test\caching.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\test\defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\node_modules\minimatch\test\extglob-ending-with-state-char.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\00-setup.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\bash-comparison.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\bash-results.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\cwd-test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\globstar-match.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\mark.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\new-glob-optional-options.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\nocase-nomagic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\pause-resume.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\readme-issue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\root-nomount.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\stat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\node_modules\glob\test\zz-cleanup.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\fload\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\tryc\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\tryc\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\tryc\lib\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\tryc\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\tryc\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\v8-argv\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\v8-argv\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\v8-argv\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\v8-argv\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\v8-argv\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\v8-argv\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\node_modules\v8-argv\v8.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\nicolashe\Documents\Web-Dev\Nicolas\ChatRoom\node_modules\mini\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ChatRoom.iml" afterPath="$PROJECT_DIR$/.idea/ChatRoom.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="CharRoom.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +130,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3207547" vertical-offset="0" max-vertical-offset="318">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat_server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/chat_server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14964789" vertical-offset="0" max-vertical-offset="1003">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/chat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat_ui.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/chat_ui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,9 +202,13 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
@@ -48,19 +218,19 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-19" />
-    <option name="y" value="45" />
+    <option name="x" value="7" />
+    <option name="y" value="100" />
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -76,6 +246,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -94,24 +265,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CharRoom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatRoom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CharRoom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatRoom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -119,10 +322,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -161,27 +360,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="45" width="1296" height="1000" extended-state="0" />
+    <frame x="7" y="100" width="1296" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56264776" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29620853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20571883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -223,8 +422,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3207547" vertical-offset="0" max-vertical-offset="318">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/chat_ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chat_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14964789" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
