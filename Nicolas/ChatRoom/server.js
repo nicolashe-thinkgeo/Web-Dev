@@ -31,7 +31,7 @@ function serverStatic(response,cache,absPath){
                     }
                 });
             }else{
-                sned404(response);
+                send404(response);
             }
         })
     }
